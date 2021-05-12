@@ -34,7 +34,7 @@ sub1.head()
 
 
 
-reg1 = smf.ols('oilperperson_c ~ relectricperperson + oilperperson_c', data=sub1).fit()
+reg1 = smf.ols('oilperperson_c ~ relectricperperson_c + oilperperson_c', data=sub1).fit()
 print(reg1.summary())
 
 
